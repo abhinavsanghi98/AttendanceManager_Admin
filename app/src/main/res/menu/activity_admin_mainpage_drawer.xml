@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <item android:title="Applications">
+        <menu>
+
+            <item
+                android:id="@+id/nav_admin_profile"
+                android:icon="@drawable/profiile_icon"
+                android:title="Profile" />
+
+            <item
+                android:id="@+id/nav_coollective_batch_create"
+                android:icon="@drawable/accout_crestion_logo"
+                android:title="View All Students" />
+
+        <item
+            android:id="@+id/nav_batch_name_cr_btn"
+            android:icon="@drawable/batch_add_icon"
+            android:title="Batch's Add" />
+            <item
+                android:id="@+id/nav_aboutapp"
+                android:icon="@drawable/mobile_logo"
+                android:title="About App" />
+
+
+
+
+        </menu>
+
+
+
+    </item>
+
+    <item android:title="Account Security">
+        <menu>
+            <item
+                android:id="@+id/nav_pass_reset"
+                android:icon="@drawable/reset_password_icon"
+                android:title="Change Password" />
+            <item
+                android:id="@+id/nav_logout_btn"
+                android:icon="@drawable/logout_icon"
+                android:title="LogOut" />
+
+        </menu>
+    </item>
+
+
+
+
+</menu>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216299537129",
+    "firebase_url": "https://vijaya-sangeet-admin.firebaseio.com",
+    "project_id": "vijaya-sangeet-admin",
+    "storage_bucket": "vijaya-sangeet-admin.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216299537129:android:9faf4265cb78dbcc9ca678",
+        "android_client_info": {
+          "package_name": "com.abhinavsanghi.vijayasangeetadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216299537129-j3ngc3nb5nunr2n1ojgr3t373jddf68k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3LrH4OPPb2UHa1l0rqBh-2jUbszEKszo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216299537129-j3ngc3nb5nunr2n1ojgr3t373jddf68k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

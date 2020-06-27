@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Vijaya Sangeet</string>
+    <string name="title_activity_admin_mainpage">admin_mainpage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_addfaculty">addfaculty</string>
+    <string name="title_activity_facultydashboard">facultydashboard</string>
+
+    <string name="okk">
+        This application is developed by Abhinav Sanghi
+        For Vijaya Sangeet Mahavidyalaya,New Delhi
+        \n\n
+
+
+        For any query and assistance feel free to contact.
+        \n\n
+        Email: sanghi.aabhu1@gmail.com
+        \n\n
+           Copyright&#169;2020
+
+    </string>
+</resources>

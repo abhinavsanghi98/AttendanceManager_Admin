@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcolor"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".amount_deposit">
+    <LinearLayout
+        android:background="@drawable/backgroundcorners"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <TextView
+            android:id="@+id/fac_profile_name_et"
+            android:background="@drawable/inputs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginTop="20dp"
+            android:hint="Name"
+            android:textColor="#2B2727"
+            android:textColorHint="#3D3939"
+            />
+        <TextView
+            android:id="@+id/fac_profile_desig_et"
+            android:background="@drawable/inputs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Previous Deposit:"
+            android:textColor="#2B2727"
+            android:textColorHint="#3D3939"
+            />
+        <EditText
+            android:id="@+id/deposit_amount"
+            android:textColor="#2B2727"
+            android:background="@drawable/inputs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:hint="Add Deposit"
+            android:inputType="number"
+
+            />
+        <Button
+            android:id="@+id/upload_pic_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Submit"
+            android:background="@drawable/inputs"
+            android:textColor="#070707"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

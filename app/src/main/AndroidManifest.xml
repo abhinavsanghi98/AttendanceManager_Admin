@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.abhinavsanghi.vijayasangeetadmin">
+
+       <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.facultyprofile"></activity>
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.batchnamecreate" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.collective_batch_creation_mid1" />
+        <activity android:name=".view_student_inadmin"/>
+        <activity android:name=".view_student_inadmin_mid"/>
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.about_app" />
+        <activity
+            android:name="com.abhinavsanghi.vijayasangeetadmin.splashscreen"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.baclog_reg_by_admin" />
+        <activity android:name=".delete_attendance_sheet_fac"/>
+        <activity android:name=".edit_attendance_bydate"/>
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.fac_viewattendance_bydate" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.fac_attenview_mid2" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.facview_atten_mid1" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.backlogstdregisteration_tosubject" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.takeattendancefinalbyfaculty" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.factakeatn_midpage" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.fac_create_new_attendenceshet" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.addsubjectbyadmin" />
+        <activity
+            android:name="com.abhinavsanghi.vijayasangeetadmin.facultydashboard"
+            android:label="Faculty Dashboard"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.removestudent" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.addstudent" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.removefaculty" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.addfaculty" />
+        <activity android:name=".amount_deposit"/>
+        <activity
+            android:name="com.abhinavsanghi.vijayasangeetadmin.admin_mainpage"
+            android:label="Admin"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.abhinavsanghi.vijayasangeetadmin.MainActivity" />
+    </application>
+
+</manifest>
